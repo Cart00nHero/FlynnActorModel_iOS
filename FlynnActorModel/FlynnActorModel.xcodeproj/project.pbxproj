@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF785B1025D1760800E2630A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF785B0F25D1760800E2630A /* AppDelegate.swift */; };
+		AF785B1225D1760800E2630A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF785B1125D1760800E2630A /* SceneDelegate.swift */; };
+		AF785B1425D1760800E2630A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF785B1325D1760800E2630A /* ViewController.swift */; };
+		AF785B1725D1760800E2630A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF785B1525D1760800E2630A /* Main.storyboard */; };
+		AF785B1925D1760A00E2630A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF785B1825D1760A00E2630A /* Assets.xcassets */; };
+		AF785B1C25D1760A00E2630A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF785B1A25D1760A00E2630A /* LaunchScreen.storyboard */; };
+		AF785B2725D1760A00E2630A /* FlynnActorModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF785B2625D1760A00E2630A /* FlynnActorModelTests.swift */; };
+		AF785B3225D1760A00E2630A /* FlynnActorModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF785B3125D1760A00E2630A /* FlynnActorModelUITests.swift */; };
+		AF785B4425D177A300E2630A /* Flynn in Frameworks */ = {isa = PBXBuildFile; productRef = AF785B4325D177A300E2630A /* Flynn */; };
+		AF785B4A25D1783100E2630A /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AF785B4925D1783100E2630A /* ReSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF785B2325D1760A00E2630A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF785B0425D1760800E2630A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF785B0B25D1760800E2630A;
+			remoteInfo = FlynnActorModel;
+		};
+		AF785B2E25D1760A00E2630A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF785B0425D1760800E2630A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF785B0B25D1760800E2630A;
+			remoteInfo = FlynnActorModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF785B0C25D1760800E2630A /* FlynnActorModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlynnActorModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF785B0F25D1760800E2630A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF785B1125D1760800E2630A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF785B1325D1760800E2630A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF785B1625D1760800E2630A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF785B1825D1760A00E2630A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF785B1B25D1760A00E2630A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF785B1D25D1760A00E2630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF785B2225D1760A00E2630A /* FlynnActorModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlynnActorModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF785B2625D1760A00E2630A /* FlynnActorModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlynnActorModelTests.swift; sourceTree = "<group>"; };
+		AF785B2825D1760A00E2630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF785B2D25D1760A00E2630A /* FlynnActorModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlynnActorModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF785B3125D1760A00E2630A /* FlynnActorModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlynnActorModelUITests.swift; sourceTree = "<group>"; };
+		AF785B3325D1760A00E2630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF785B0925D1760800E2630A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF785B4425D177A300E2630A /* Flynn in Frameworks */,
+				AF785B4A25D1783100E2630A /* ReSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF785B1F25D1760A00E2630A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF785B2A25D1760A00E2630A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF785B0325D1760800E2630A = {
+			isa = PBXGroup;
+			children = (
+				AF785B0E25D1760800E2630A /* FlynnActorModel */,
+				AF785B2525D1760A00E2630A /* FlynnActorModelTests */,
+				AF785B3025D1760A00E2630A /* FlynnActorModelUITests */,
+				AF785B0D25D1760800E2630A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF785B0D25D1760800E2630A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF785B0C25D1760800E2630A /* FlynnActorModel.app */,
+				AF785B2225D1760A00E2630A /* FlynnActorModelTests.xctest */,
+				AF785B2D25D1760A00E2630A /* FlynnActorModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF785B0E25D1760800E2630A /* FlynnActorModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF785B0F25D1760800E2630A /* AppDelegate.swift */,
+				AF785B1125D1760800E2630A /* SceneDelegate.swift */,
+				AF785B1325D1760800E2630A /* ViewController.swift */,
+				AF785B1525D1760800E2630A /* Main.storyboard */,
+				AF785B1825D1760A00E2630A /* Assets.xcassets */,
+				AF785B1A25D1760A00E2630A /* LaunchScreen.storyboard */,
+				AF785B1D25D1760A00E2630A /* Info.plist */,
+			);
+			path = FlynnActorModel;
+			sourceTree = "<group>";
+		};
+		AF785B2525D1760A00E2630A /* FlynnActorModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF785B2625D1760A00E2630A /* FlynnActorModelTests.swift */,
+				AF785B2825D1760A00E2630A /* Info.plist */,
+			);
+			path = FlynnActorModelTests;
+			sourceTree = "<group>";
+		};
+		AF785B3025D1760A00E2630A /* FlynnActorModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF785B3125D1760A00E2630A /* FlynnActorModelUITests.swift */,
+				AF785B3325D1760A00E2630A /* Info.plist */,
+			);
+			path = FlynnActorModelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF785B0B25D1760800E2630A /* FlynnActorModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF785B3625D1760A00E2630A /* Build configuration list for PBXNativeTarget "FlynnActorModel" */;
+			buildPhases = (
+				AF785B0825D1760800E2630A /* Sources */,
+				AF785B0925D1760800E2630A /* Frameworks */,
+				AF785B0A25D1760800E2630A /* Resources */,
+				AF785B4F25D178B400E2630A /* FlynnLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlynnActorModel;
+			packageProductDependencies = (
+				AF785B4325D177A300E2630A /* Flynn */,
+				AF785B4925D1783100E2630A /* ReSwift */,
+			);
+			productName = FlynnActorModel;
+			productReference = AF785B0C25D1760800E2630A /* FlynnActorModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF785B2125D1760A00E2630A /* FlynnActorModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF785B3925D1760A00E2630A /* Build configuration list for PBXNativeTarget "FlynnActorModelTests" */;
+			buildPhases = (
+				AF785B1E25D1760A00E2630A /* Sources */,
+				AF785B1F25D1760A00E2630A /* Frameworks */,
+				AF785B2025D1760A00E2630A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF785B2425D1760A00E2630A /* PBXTargetDependency */,
+			);
+			name = FlynnActorModelTests;
+			productName = FlynnActorModelTests;
+			productReference = AF785B2225D1760A00E2630A /* FlynnActorModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF785B2C25D1760A00E2630A /* FlynnActorModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF785B3C25D1760A00E2630A /* Build configuration list for PBXNativeTarget "FlynnActorModelUITests" */;
+			buildPhases = (
+				AF785B2925D1760A00E2630A /* Sources */,
+				AF785B2A25D1760A00E2630A /* Frameworks */,
+				AF785B2B25D1760A00E2630A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF785B2F25D1760A00E2630A /* PBXTargetDependency */,
+			);
+			name = FlynnActorModelUITests;
+			productName = FlynnActorModelUITests;
+			productReference = AF785B2D25D1760A00E2630A /* FlynnActorModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF785B0425D1760800E2630A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					AF785B0B25D1760800E2630A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					AF785B2125D1760A00E2630A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AF785B0B25D1760800E2630A;
+					};
+					AF785B2C25D1760A00E2630A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AF785B0B25D1760800E2630A;
+					};
+				};
+			};
+			buildConfigurationList = AF785B0725D1760800E2630A /* Build configuration list for PBXProject "FlynnActorModel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF785B0325D1760800E2630A;
+			packageReferences = (
+				AF785B4225D177A300E2630A /* XCRemoteSwiftPackageReference "Flynn" */,
+				AF785B4825D1783100E2630A /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
+			productRefGroup = AF785B0D25D1760800E2630A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF785B0B25D1760800E2630A /* FlynnActorModel */,
+				AF785B2125D1760A00E2630A /* FlynnActorModelTests */,
+				AF785B2C25D1760A00E2630A /* FlynnActorModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF785B0A25D1760800E2630A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF785B1C25D1760A00E2630A /* LaunchScreen.storyboard in Resources */,
+				AF785B1925D1760A00E2630A /* Assets.xcassets in Resources */,
+				AF785B1725D1760800E2630A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF785B2025D1760A00E2630A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF785B2B25D1760A00E2630A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF785B4F25D178B400E2630A /* FlynnLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = FlynnLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nFLYNNLINTSWIFTPM=${SRCROOT}/.build/checkouts/flynn/meta/FlynnLint\nFLYNNLINTXCODE=${BUILD_ROOT}/../../SourcePackages/checkouts/flynn/meta/FlynnLint\n\nif [ -f \"${FLYNNLINTSWIFTPM}\" ]; then\n    ${FLYNNLINTSWIFTPM} ${SRCROOT}\nelif [ -f \"${FLYNNLINTXCODE}\" ]; then\n    ${FLYNNLINTXCODE} ${SRCROOT}\nelse\n    echo \"warning: Unable to find FlynnLint, aborting...\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF785B0825D1760800E2630A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF785B1425D1760800E2630A /* ViewController.swift in Sources */,
+				AF785B1025D1760800E2630A /* AppDelegate.swift in Sources */,
+				AF785B1225D1760800E2630A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF785B1E25D1760A00E2630A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF785B2725D1760A00E2630A /* FlynnActorModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF785B2925D1760A00E2630A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF785B3225D1760A00E2630A /* FlynnActorModelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF785B2425D1760A00E2630A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF785B0B25D1760800E2630A /* FlynnActorModel */;
+			targetProxy = AF785B2325D1760A00E2630A /* PBXContainerItemProxy */;
+		};
+		AF785B2F25D1760A00E2630A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF785B0B25D1760800E2630A /* FlynnActorModel */;
+			targetProxy = AF785B2E25D1760A00E2630A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF785B1525D1760800E2630A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF785B1625D1760800E2630A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF785B1A25D1760A00E2630A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF785B1B25D1760A00E2630A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF785B3425D1760A00E2630A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF785B3525D1760A00E2630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF785B3725D1760A00E2630A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6986VVSY67;
+				INFOPLIST_FILE = FlynnActorModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FlynnActorModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF785B3825D1760A00E2630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6986VVSY67;
+				INFOPLIST_FILE = FlynnActorModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FlynnActorModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF785B3A25D1760A00E2630A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6986VVSY67;
+				INFOPLIST_FILE = FlynnActorModelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FlynnActorModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlynnActorModel.app/FlynnActorModel";
+			};
+			name = Debug;
+		};
+		AF785B3B25D1760A00E2630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6986VVSY67;
+				INFOPLIST_FILE = FlynnActorModelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FlynnActorModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlynnActorModel.app/FlynnActorModel";
+			};
+			name = Release;
+		};
+		AF785B3D25D1760A00E2630A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6986VVSY67;
+				INFOPLIST_FILE = FlynnActorModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FlynnActorModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlynnActorModel;
+			};
+			name = Debug;
+		};
+		AF785B3E25D1760A00E2630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6986VVSY67;
+				INFOPLIST_FILE = FlynnActorModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FlynnActorModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlynnActorModel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF785B0725D1760800E2630A /* Build configuration list for PBXProject "FlynnActorModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF785B3425D1760A00E2630A /* Debug */,
+				AF785B3525D1760A00E2630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF785B3625D1760A00E2630A /* Build configuration list for PBXNativeTarget "FlynnActorModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF785B3725D1760A00E2630A /* Debug */,
+				AF785B3825D1760A00E2630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF785B3925D1760A00E2630A /* Build configuration list for PBXNativeTarget "FlynnActorModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF785B3A25D1760A00E2630A /* Debug */,
+				AF785B3B25D1760A00E2630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF785B3C25D1760A00E2630A /* Build configuration list for PBXNativeTarget "FlynnActorModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF785B3D25D1760A00E2630A /* Debug */,
+				AF785B3E25D1760A00E2630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF785B4225D177A300E2630A /* XCRemoteSwiftPackageReference "Flynn" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KittyMac/Flynn.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+		AF785B4825D1783100E2630A /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF785B4325D177A300E2630A /* Flynn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF785B4225D177A300E2630A /* XCRemoteSwiftPackageReference "Flynn" */;
+			productName = Flynn;
+		};
+		AF785B4925D1783100E2630A /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF785B4825D1783100E2630A /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF785B0425D1760800E2630A /* Project object */;
+}
