@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonClickAction(sender: UIButton) {
         print("synchronous: before")
-//        HelloFlynnActor().bePrint("Hello Flynn")
+        HelloFlynnActor().bePrint("Hello Flynn")
         print("synchronous: after")
         Flynn.shutdown()
     }
