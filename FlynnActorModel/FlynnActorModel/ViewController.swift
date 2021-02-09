@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Flynn
 
 class ViewController: UIViewController {
 
@@ -13,7 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func buttonClickAction(sender: UIButton) {
+        print("synchronous: before")
+        HelloFlynnActor().bePrint("Hello Flynn")
+        print("synchronous: after")
+        Flynn.shutdown()
+    }
 
 }
 
