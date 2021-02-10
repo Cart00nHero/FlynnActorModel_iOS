@@ -23,6 +23,9 @@
 		AF8F61C225D3D1190020AEEC /* ScenarioActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F61C125D3D1190020AEEC /* ScenarioActors.swift */; };
 		AFA89D6525D447830057FA75 /* DataStorageActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA89D6425D447830057FA75 /* DataStorageActor.swift */; };
 		AFA89D6A25D45AC20057FA75 /* ViewModelActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA89D6925D45AC20057FA75 /* ViewModelActor.swift */; };
+		AFA89D7625D473000057FA75 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA89D7025D473000057FA75 /* AppState.swift */; };
+		AFA89D7725D473000057FA75 /* UIActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA89D7225D473000057FA75 /* UIActions.swift */; };
+		AFA89D7925D473000057FA75 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA89D7525D473000057FA75 /* AppReducer.swift */; };
 		AFFC47D125D2E9E60090A128 /* HelloFlynnActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC47D025D2E9E60090A128 /* HelloFlynnActor.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +65,9 @@
 		AF8F61C125D3D1190020AEEC /* ScenarioActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioActors.swift; sourceTree = "<group>"; };
 		AFA89D6425D447830057FA75 /* DataStorageActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorageActor.swift; sourceTree = "<group>"; };
 		AFA89D6925D45AC20057FA75 /* ViewModelActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelActor.swift; sourceTree = "<group>"; };
+		AFA89D7025D473000057FA75 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AFA89D7225D473000057FA75 /* UIActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActions.swift; sourceTree = "<group>"; };
+		AFA89D7525D473000057FA75 /* AppReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		AFFC47D025D2E9E60090A128 /* HelloFlynnActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFlynnActor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +123,7 @@
 		AF785B0E25D1760800E2630A /* FlynnActorModel */ = {
 			isa = PBXGroup;
 			children = (
+				AFA89D6E25D473000057FA75 /* Redux */,
 				AF8F61A325D3C5740020AEEC /* Enities */,
 				AF785B6F25D2DE2D00E2630A /* Actors */,
 				AF785B0F25D1760800E2630A /* AppDelegate.swift */,
@@ -165,6 +172,40 @@
 				AF8F61AC25D3C60B0020AEEC /* StructEntities.swift */,
 			);
 			path = Enities;
+			sourceTree = "<group>";
+		};
+		AFA89D6E25D473000057FA75 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				AFA89D6F25D473000057FA75 /* States */,
+				AFA89D7125D473000057FA75 /* Actions */,
+				AFA89D7425D473000057FA75 /* Reducers */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		AFA89D6F25D473000057FA75 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				AFA89D7025D473000057FA75 /* AppState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		AFA89D7125D473000057FA75 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				AFA89D7225D473000057FA75 /* UIActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		AFA89D7425D473000057FA75 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				AFA89D7525D473000057FA75 /* AppReducer.swift */,
+			);
+			path = Reducers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,8 +372,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFFC47D125D2E9E60090A128 /* HelloFlynnActor.swift in Sources */,
+				AFA89D7725D473000057FA75 /* UIActions.swift in Sources */,
 				AF785B1425D1760800E2630A /* ViewController.swift in Sources */,
 				AF785B1025D1760800E2630A /* AppDelegate.swift in Sources */,
+				AFA89D7625D473000057FA75 /* AppState.swift in Sources */,
+				AFA89D7925D473000057FA75 /* AppReducer.swift in Sources */,
 				AFA89D6525D447830057FA75 /* DataStorageActor.swift in Sources */,
 				AFA89D6A25D45AC20057FA75 /* ViewModelActor.swift in Sources */,
 				AF8F61C225D3D1190020AEEC /* ScenarioActors.swift in Sources */,

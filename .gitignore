@@ -67,3 +67,5 @@ fastlane/test_output
 
 iOSInjectionProject/
 FlynnActorModel/FlynnActorModel/.DS_Store
+
+.DS_Store

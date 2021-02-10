@@ -10,13 +10,16 @@ import Flynn
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var button: UIButton!
+    private var model = ViewModelActor()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
     @IBAction func buttonClickAction(sender: UIButton) {
-        runConcurrentDatastore()
+        useViewModelActor()
     }
     
     private func sayHello() {
@@ -25,7 +28,7 @@ class ViewController: UIViewController {
         print("synchronous: after")
         Flynn.shutdown()
     }
-    private func runConcurrentDatastore() {
+    private func useConcurrentDatastore() {
         let monsters = ConcurrentDatastore()
 
         monsters.beSet("Goblin", Monster(name: "Goblin", hitpoints: 10, strength: 3, dexterity: 2, intelligence: 1))
@@ -48,6 +51,12 @@ class ViewController: UIViewController {
         scenario2.bePrint("Goblin")
 
         Flynn.shutdown()
+    }
+    private func useViewModelActor() {
+        model.beAddCountTextBlock { (title) in
+            self.button.setTitle(title, for: .normal)
+        }
+//        button.setTitle(model.unsafeCount, for: .normal)
     }
 }
 
