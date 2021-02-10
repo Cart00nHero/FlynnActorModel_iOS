@@ -9,9 +9,6 @@ import Foundation
 import Flynn
 
 class HelloFlynnActor: Actor {
-    private func _bePrint(_ string: String) {
-        print(string)
-    }
     private func _beSayHello() {
         print("Hello Flynn")
     }
@@ -22,11 +19,6 @@ class HelloFlynnActor: Actor {
 
 extension HelloFlynnActor {
 
-    @discardableResult
-    public func bePrint(_ string: String) -> Self {
-        unsafeSend { self._bePrint(string) }
-        return self
-    }
     @discardableResult
     public func beSayHello() -> Self {
         unsafeSend(_beSayHello)

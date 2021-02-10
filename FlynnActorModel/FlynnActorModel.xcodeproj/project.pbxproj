@@ -17,8 +17,13 @@
 		AF785B3225D1760A00E2630A /* FlynnActorModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF785B3125D1760A00E2630A /* FlynnActorModelUITests.swift */; };
 		AF785B4425D177A300E2630A /* Flynn in Frameworks */ = {isa = PBXBuildFile; productRef = AF785B4325D177A300E2630A /* Flynn */; };
 		AF785B4A25D1783100E2630A /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AF785B4925D1783100E2630A /* ReSwift */; };
+		AF8F617B25D3920E0020AEEC /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = AF8F617A25D3920E0020AEEC /* Apollo */; };
+		AF8F617D25D3920E0020AEEC /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = AF8F617C25D3920E0020AEEC /* ApolloWebSocket */; };
+		AF8F61AD25D3C60B0020AEEC /* StructEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F61AC25D3C60B0020AEEC /* StructEntities.swift */; };
+		AF8F61C225D3D1190020AEEC /* ScenarioActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F61C125D3D1190020AEEC /* ScenarioActors.swift */; };
+		AFA89D6525D447830057FA75 /* DataStorageActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA89D6425D447830057FA75 /* DataStorageActor.swift */; };
+		AFA89D6A25D45AC20057FA75 /* ViewModelActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA89D6925D45AC20057FA75 /* ViewModelActor.swift */; };
 		AFFC47D125D2E9E60090A128 /* HelloFlynnActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC47D025D2E9E60090A128 /* HelloFlynnActor.swift */; };
-		AFFC47FF25D2F8E30090A128 /* TestActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC47FE25D2F8E30090A128 /* TestActor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +58,11 @@
 		AF785B2D25D1760A00E2630A /* FlynnActorModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlynnActorModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF785B3125D1760A00E2630A /* FlynnActorModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlynnActorModelUITests.swift; sourceTree = "<group>"; };
 		AF785B3325D1760A00E2630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8F61AC25D3C60B0020AEEC /* StructEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructEntities.swift; sourceTree = "<group>"; };
+		AF8F61C125D3D1190020AEEC /* ScenarioActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioActors.swift; sourceTree = "<group>"; };
+		AFA89D6425D447830057FA75 /* DataStorageActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorageActor.swift; sourceTree = "<group>"; };
+		AFA89D6925D45AC20057FA75 /* ViewModelActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelActor.swift; sourceTree = "<group>"; };
 		AFFC47D025D2E9E60090A128 /* HelloFlynnActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFlynnActor.swift; sourceTree = "<group>"; };
-		AFFC47FE25D2F8E30090A128 /* TestActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestActor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF785B4425D177A300E2630A /* Flynn in Frameworks */,
+				AF8F617D25D3920E0020AEEC /* ApolloWebSocket in Frameworks */,
+				AF8F617B25D3920E0020AEEC /* Apollo in Frameworks */,
 				AF785B4A25D1783100E2630A /* ReSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +117,7 @@
 		AF785B0E25D1760800E2630A /* FlynnActorModel */ = {
 			isa = PBXGroup;
 			children = (
+				AF8F61A325D3C5740020AEEC /* Enities */,
 				AF785B6F25D2DE2D00E2630A /* Actors */,
 				AF785B0F25D1760800E2630A /* AppDelegate.swift */,
 				AF785B1125D1760800E2630A /* SceneDelegate.swift */,
@@ -141,9 +152,19 @@
 			isa = PBXGroup;
 			children = (
 				AFFC47D025D2E9E60090A128 /* HelloFlynnActor.swift */,
-				AFFC47FE25D2F8E30090A128 /* TestActor.swift */,
+				AF8F61C125D3D1190020AEEC /* ScenarioActors.swift */,
+				AFA89D6425D447830057FA75 /* DataStorageActor.swift */,
+				AFA89D6925D45AC20057FA75 /* ViewModelActor.swift */,
 			);
 			path = Actors;
+			sourceTree = "<group>";
+		};
+		AF8F61A325D3C5740020AEEC /* Enities */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F61AC25D3C60B0020AEEC /* StructEntities.swift */,
+			);
+			path = Enities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +187,8 @@
 			packageProductDependencies = (
 				AF785B4325D177A300E2630A /* Flynn */,
 				AF785B4925D1783100E2630A /* ReSwift */,
+				AF8F617A25D3920E0020AEEC /* Apollo */,
+				AF8F617C25D3920E0020AEEC /* ApolloWebSocket */,
 			);
 			productName = FlynnActorModel;
 			productReference = AF785B0C25D1760800E2630A /* FlynnActorModel.app */;
@@ -241,6 +264,7 @@
 			packageReferences = (
 				AF785B4225D177A300E2630A /* XCRemoteSwiftPackageReference "Flynn" */,
 				AF785B4825D1783100E2630A /* XCRemoteSwiftPackageReference "ReSwift" */,
+				AF8F617925D3920E0020AEEC /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			productRefGroup = AF785B0D25D1760800E2630A /* Products */;
 			projectDirPath = "";
@@ -309,7 +333,10 @@
 				AFFC47D125D2E9E60090A128 /* HelloFlynnActor.swift in Sources */,
 				AF785B1425D1760800E2630A /* ViewController.swift in Sources */,
 				AF785B1025D1760800E2630A /* AppDelegate.swift in Sources */,
-				AFFC47FF25D2F8E30090A128 /* TestActor.swift in Sources */,
+				AFA89D6525D447830057FA75 /* DataStorageActor.swift in Sources */,
+				AFA89D6A25D45AC20057FA75 /* ViewModelActor.swift in Sources */,
+				AF8F61C225D3D1190020AEEC /* ScenarioActors.swift in Sources */,
+				AF8F61AD25D3C60B0020AEEC /* StructEntities.swift in Sources */,
 				AF785B1225D1760800E2630A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -661,6 +688,14 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		AF8F617925D3920E0020AEEC /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.41.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -673,6 +708,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AF785B4825D1783100E2630A /* XCRemoteSwiftPackageReference "ReSwift" */;
 			productName = ReSwift;
+		};
+		AF8F617A25D3920E0020AEEC /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF8F617925D3920E0020AEEC /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		AF8F617C25D3920E0020AEEC /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF8F617925D3920E0020AEEC /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
