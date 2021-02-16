@@ -56,7 +56,6 @@ class ViewController: UIViewController {
         model.beAddCountTextBlock { (title) in
             self.button.setTitle(title, for: .normal)
         }
-//        button.setTitle(model.unsafeCount, for: .normal)
     }
 }
 
